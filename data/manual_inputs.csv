@@ -1,0 +1,19 @@
+# Manual Inputs – Lumakras Launch Forecast
+# These are pre-AS_OF inputs used in the forecast model.
+# If a value is a placeholder, it is marked and listed in TODO_FOR_USER.md.
+parameter,value,unit,source,confidence,is_placeholder,notes
+us_nsclc_new_cases_annual,200396,patients,ACS 2021 (235760 * 0.85),high,no,Non-small cell lung cancer new cases US 2021
+advanced_metastatic_fraction,0.70,proportion,SEER stage distribution,medium,no,Stage III/IV at diagnosis
+kras_mutation_prevalence_nsclc,0.25,proportion,Published literature,high,no,KRAS mutations in NSCLC adenocarcinoma
+kras_g12c_fraction_of_kras,0.40,proportion,Published literature,high,no,G12C as fraction of all KRAS mutations
+kras_g12c_prevalence_direct,0.13,proportion,Published literature (consensus),high,no,Direct prevalence in non-squamous advanced NSCLC
+biomarker_testing_rate_at_launch,0.50,proportion,Community oncology studies,medium,no,NGS/molecular testing rate for KRAS at launch
+biomarker_testing_rate_year2,0.65,proportion,Projected improvement,medium,no,Expected ramp-up
+biomarker_testing_rate_year3,0.75,proportion,Projected improvement,medium,no,
+second_line_eligible_fraction,0.75,proportion,Literature / NCCN,medium,no,Fraction receiving 2L+ systemic therapy
+wac_per_month,17900,USD,Amgen press release,high,no,Wholesale acquisition cost at launch
+median_treatment_duration,5.5,months,Estimated from median PFS 6.8mo,medium,no,Approx treatment until progression
+net_to_gross_ratio,0.60,proportion,Oncology industry benchmark,medium,no,Net revenue after rebates/discounts/340B
+annual_price_increase,0.05,proportion,Industry benchmark,medium,no,Annual WAC increase ~5%
+peak_share_of_eligible_2l,0.35,proportion,Analog-based estimate,medium,no,Peak share of tested+eligible 2L patients
+time_to_peak_quarters,12,quarters,Analog-based estimate,medium,no,~3 years to peak share

@@ -1,0 +1,8 @@
+drug_name,company,target,mechanism,highest_phase,phase_date,nct_id,indication,notes
+adagrasib (MRTX849),Mirati Therapeutics,KRAS G12C,covalent inhibitor,Phase 1/2,2019-01-15,NCT03785249,NSCLC,KRYSTAL-1 Phase 1/2; data presented at AACR 2020 showing 45% ORR
+adagrasib (MRTX849),Mirati Therapeutics,KRAS G12C,covalent inhibitor,Phase 3,2021-03-01,NCT04685135,NSCLC,KRYSTAL-12 Phase 3 vs docetaxel; initiated Q1 2021
+GDC-6036 (divarasib),Genentech/Roche,KRAS G12C,covalent inhibitor,Phase 1,2020-09-01,NCT04449874,Solid tumors,Phase 1 dose-escalation
+JNJ-74699157,Johnson & Johnson,KRAS G12C,covalent inhibitor,Phase 1,2020-03-01,NCT04006301,Solid tumors,Phase 1; later discontinued
+LY3537982,Eli Lilly,KRAS G12C,covalent inhibitor,Phase 1,2021-02-01,NCT04956640,Solid tumors,Phase 1 dose-escalation; early stage at AS_OF
+D-1553 (garsorasib),InventisBio,KRAS G12C,covalent inhibitor,Phase 1/2,2020-12-01,NCT04585035,Solid tumors,Phase 1/2 in China primarily
+JAB-21822,Jacobio Pharma,KRAS G12C,covalent inhibitor,Phase 1/2,2020-08-01,NCT05002270,Solid tumors,Phase 1/2; China-based

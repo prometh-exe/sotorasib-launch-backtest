@@ -1,0 +1,6 @@
+driver,description,counterfactual_mape_pct,mape_reduction_pts,counterfactual_rmse_m,rmse_reduction_m,primary_horizon_impacted
+1. Prevalent Warehouse & Wholesaler Channel Stocking,"Pre-launch model assumed pure incidence; missed 1,200 waiting prevalent patients and channel inventory build.",46.9,14.93,39.71,2.93,Year 1 (Launch)
+2. Real-World Treatment Duration (PFS vs Real-World DOT),Real-world patients discontinue earlier (4.2 mo vs 6.8 mo trial PFS) due to adverse events and early progression.,69.47,-7.63,48.01,-5.36,Years 2-4
+3. Competitive Entry (Adagrasib / Krazati),Mirati launched in Q4 2022; second entrant split new patient starts and pressured share in mid-stage launch.,67.97,-6.14,46.87,-4.23,Years 3-4
+4. Regulatory Stalling (ODAC Advisory Committee Vote),CodeBreaK 200 confirmatory trial failed to establish OS superiority; ODAC voted against conversion to full approval in late 2023.,67.22,-5.39,47.0,-4.35,Year 3 & 4
+5. Integrated Ex-Post Model (All Factors Combined),"Combines initial patient warehouse + channel fill with real-world DOT, Krazati competition, and ODAC regulatory cap.",40.96,20.87,35.59,7.05,Full 4-Year Trajectory

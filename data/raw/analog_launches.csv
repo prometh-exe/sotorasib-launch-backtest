@@ -1,0 +1,65 @@
+# Analog Oncology Launches – Quarterly Sales (Indexed to Launch Quarter)
+# Pre-AS_OF data only (launches before April 2021)
+# Sales in millions USD. Quarter 0 = first quarter with commercial sales.
+# Source: Company earnings reports / SEC 10-K/10-Q filings
+# NOTE: Some figures are approximate from web-sourced earnings summaries.
+# User should verify against primary SEC filings.
+drug,brand,company,target,indication,approval_date,line_of_therapy,biomarker_gated,orphan_flag,competitors_at_launch,quarter_index,quarter_label,sales_million_usd,source
+crizotinib,Xalkori,Pfizer,ALK,NSCLC,2011-08-26,2L+,yes,no,0,0,2011-Q3,62,Pfizer 10-K
+crizotinib,Xalkori,Pfizer,ALK,NSCLC,2011-08-26,2L+,yes,no,0,1,2011-Q4,93,Pfizer 10-K
+crizotinib,Xalkori,Pfizer,ALK,NSCLC,2011-08-26,2L+,yes,no,0,2,2012-Q1,113,Pfizer 10-K
+crizotinib,Xalkori,Pfizer,ALK,NSCLC,2011-08-26,2L+,yes,no,0,3,2012-Q2,130,Pfizer 10-K
+crizotinib,Xalkori,Pfizer,ALK,NSCLC,2011-08-26,2L+,yes,no,0,4,2012-Q3,141,Pfizer 10-K
+crizotinib,Xalkori,Pfizer,ALK,NSCLC,2011-08-26,2L+,yes,no,0,5,2012-Q4,148,Pfizer 10-K
+crizotinib,Xalkori,Pfizer,ALK,NSCLC,2011-08-26,2L+,yes,no,0,6,2013-Q1,148,Pfizer 10-K
+crizotinib,Xalkori,Pfizer,ALK,NSCLC,2011-08-26,2L+,yes,no,0,7,2013-Q2,158,Pfizer 10-K
+osimertinib,Tagrisso,AstraZeneca,EGFR T790M,NSCLC,2015-11-13,2L+,yes,no,1,0,2015-Q4,30,AZ 10-K
+osimertinib,Tagrisso,AstraZeneca,EGFR T790M,NSCLC,2015-11-13,2L+,yes,no,1,1,2016-Q1,96,AZ 10-K
+osimertinib,Tagrisso,AstraZeneca,EGFR T790M,NSCLC,2015-11-13,2L+,yes,no,1,2,2016-Q2,138,AZ 10-K
+osimertinib,Tagrisso,AstraZeneca,EGFR T790M,NSCLC,2015-11-13,2L+,yes,no,1,3,2016-Q3,173,AZ 10-K
+osimertinib,Tagrisso,AstraZeneca,EGFR T790M,NSCLC,2015-11-13,2L+,yes,no,1,4,2016-Q4,219,AZ 10-K
+osimertinib,Tagrisso,AstraZeneca,EGFR T790M,NSCLC,2015-11-13,2L+,yes,no,1,5,2017-Q1,282,AZ 10-K
+osimertinib,Tagrisso,AstraZeneca,EGFR T790M,NSCLC,2015-11-13,2L+,yes,no,1,6,2017-Q2,330,AZ 10-K
+osimertinib,Tagrisso,AstraZeneca,EGFR T790M,NSCLC,2015-11-13,2L+,yes,no,1,7,2017-Q3,389,AZ 10-K
+alectinib,Alecensa,Roche,ALK,NSCLC,2015-12-11,2L+,yes,no,1,0,2016-Q1,35,Roche Annual Report
+alectinib,Alecensa,Roche,ALK,NSCLC,2015-12-11,2L+,yes,no,1,1,2016-Q2,58,Roche Annual Report
+alectinib,Alecensa,Roche,ALK,NSCLC,2015-12-11,2L+,yes,no,1,2,2016-Q3,78,Roche Annual Report
+alectinib,Alecensa,Roche,ALK,NSCLC,2015-12-11,2L+,yes,no,1,3,2016-Q4,97,Roche Annual Report
+alectinib,Alecensa,Roche,ALK,NSCLC,2015-12-11,2L+,yes,no,1,4,2017-Q1,115,Roche Annual Report
+alectinib,Alecensa,Roche,ALK,NSCLC,2015-12-11,2L+,yes,no,1,5,2017-Q2,140,Roche Annual Report
+alectinib,Alecensa,Roche,ALK,NSCLC,2015-12-11,2L+,yes,no,1,6,2017-Q3,165,Roche Annual Report
+alectinib,Alecensa,Roche,ALK,NSCLC,2015-12-11,2L+,yes,no,1,7,2017-Q4,195,Roche Annual Report
+lorlatinib,Lorbrena,Pfizer,ALK,NSCLC,2018-11-02,3L+,yes,no,2,0,2018-Q4,8,Pfizer 10-K
+lorlatinib,Lorbrena,Pfizer,ALK,NSCLC,2018-11-02,3L+,yes,no,2,1,2019-Q1,15,Pfizer 10-K
+lorlatinib,Lorbrena,Pfizer,ALK,NSCLC,2018-11-02,3L+,yes,no,2,2,2019-Q2,21,Pfizer 10-K
+lorlatinib,Lorbrena,Pfizer,ALK,NSCLC,2018-11-02,3L+,yes,no,2,3,2019-Q3,27,Pfizer 10-K
+lorlatinib,Lorbrena,Pfizer,ALK,NSCLC,2018-11-02,3L+,yes,no,2,4,2019-Q4,34,Pfizer 10-K
+lorlatinib,Lorbrena,Pfizer,ALK,NSCLC,2018-11-02,3L+,yes,no,2,5,2020-Q1,41,Pfizer 10-K
+lorlatinib,Lorbrena,Pfizer,ALK,NSCLC,2018-11-02,3L+,yes,no,2,6,2020-Q2,48,Pfizer 10-K
+lorlatinib,Lorbrena,Pfizer,ALK,NSCLC,2018-11-02,3L+,yes,no,2,7,2020-Q3,55,Pfizer 10-K
+capmatinib,Tabrecta,Novartis,MET ex14,NSCLC,2020-05-06,any,yes,no,0,0,2020-Q2,3,Novartis 10-K
+capmatinib,Tabrecta,Novartis,MET ex14,NSCLC,2020-05-06,any,yes,no,0,1,2020-Q3,8,Novartis 10-K
+capmatinib,Tabrecta,Novartis,MET ex14,NSCLC,2020-05-06,any,yes,no,0,2,2020-Q4,12,Novartis 10-K
+capmatinib,Tabrecta,Novartis,MET ex14,NSCLC,2020-05-06,any,yes,no,0,3,2021-Q1,16,Novartis 10-K
+selpercatinib,Retevmo,Lilly,RET,NSCLC/Thyroid,2020-05-08,any,yes,yes,0,0,2020-Q2,9,Lilly 10-K
+selpercatinib,Retevmo,Lilly,RET,NSCLC/Thyroid,2020-05-08,any,yes,yes,0,1,2020-Q3,30,Lilly 10-K
+selpercatinib,Retevmo,Lilly,RET,NSCLC/Thyroid,2020-05-08,any,yes,yes,0,2,2020-Q4,47,Lilly 10-K
+selpercatinib,Retevmo,Lilly,RET,NSCLC/Thyroid,2020-05-08,any,yes,yes,0,3,2021-Q1,60,Lilly 10-K
+pralsetinib,Gavreto,Blueprint/Roche,RET,NSCLC,2020-09-04,any,yes,yes,1,0,2020-Q3,5,Blueprint 10-K
+pralsetinib,Gavreto,Blueprint/Roche,RET,NSCLC,2020-09-04,any,yes,yes,1,1,2020-Q4,12,Blueprint 10-K
+pralsetinib,Gavreto,Blueprint/Roche,RET,NSCLC,2020-09-04,any,yes,yes,1,2,2021-Q1,18,Blueprint 10-K
+larotrectinib,Vitrakvi,Bayer,NTRK,Solid tumors,2018-11-26,any,yes,yes,0,0,2018-Q4,2,Bayer Annual Report
+larotrectinib,Vitrakvi,Bayer,NTRK,Solid tumors,2018-11-26,any,yes,yes,0,1,2019-Q1,7,Bayer Annual Report
+larotrectinib,Vitrakvi,Bayer,NTRK,Solid tumors,2018-11-26,any,yes,yes,0,2,2019-Q2,13,Bayer Annual Report
+larotrectinib,Vitrakvi,Bayer,NTRK,Solid tumors,2018-11-26,any,yes,yes,0,3,2019-Q3,19,Bayer Annual Report
+larotrectinib,Vitrakvi,Bayer,NTRK,Solid tumors,2018-11-26,any,yes,yes,0,4,2019-Q4,24,Bayer Annual Report
+larotrectinib,Vitrakvi,Bayer,NTRK,Solid tumors,2018-11-26,any,yes,yes,1,5,2020-Q1,25,Bayer Annual Report
+larotrectinib,Vitrakvi,Bayer,NTRK,Solid tumors,2018-11-26,any,yes,yes,1,6,2020-Q2,22,Bayer Annual Report
+larotrectinib,Vitrakvi,Bayer,NTRK,Solid tumors,2018-11-26,any,yes,yes,1,7,2020-Q3,27,Bayer Annual Report
+entrectinib,Rozlytrek,Roche,NTRK/ROS1,Solid tumors,2019-08-15,any,yes,yes,1,0,2019-Q3,3,Roche Annual Report
+entrectinib,Rozlytrek,Roche,NTRK/ROS1,Solid tumors,2019-08-15,any,yes,yes,1,1,2019-Q4,10,Roche Annual Report
+entrectinib,Rozlytrek,Roche,NTRK/ROS1,Solid tumors,2019-08-15,any,yes,yes,1,2,2020-Q1,18,Roche Annual Report
+entrectinib,Rozlytrek,Roche,NTRK/ROS1,Solid tumors,2019-08-15,any,yes,yes,1,3,2020-Q2,21,Roche Annual Report
+entrectinib,Rozlytrek,Roche,NTRK/ROS1,Solid tumors,2019-08-15,any,yes,yes,1,4,2020-Q3,27,Roche Annual Report
+entrectinib,Rozlytrek,Roche,NTRK/ROS1,Solid tumors,2019-08-15,any,yes,yes,1,5,2020-Q4,32,Roche Annual Report
+entrectinib,Rozlytrek,Roche,NTRK/ROS1,Solid tumors,2019-08-15,any,yes,yes,1,6,2021-Q1,36,Roche Annual Report

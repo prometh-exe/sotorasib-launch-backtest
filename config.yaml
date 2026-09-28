@@ -1,0 +1,42 @@
+# ============================================================
+# Lumakras (sotorasib) Back-Tested Launch Forecast – Config
+# ============================================================
+# AS_OF: the information cut-off for the forecast.
+# Set to the month BEFORE FDA approval (May 28, 2021).
+# Every SQL query, feature, and input MUST be gated by this date.
+# Anything after AS_OF is "actual" and used ONLY for back-testing.
+# ============================================================
+
+project:
+  name: "Lumakras Launch Back-Test"
+  drug: "sotorasib"
+  brand: "Lumakras"
+  target: "KRAS G12C"
+  indication: "NSCLC"
+  company: "Amgen"
+
+dates:
+  as_of: "2021-04-30"                  # last day of info available to the forecaster
+  fda_approval: "2021-05-28"           # accelerated approval date
+  launch_quarter: "2021-Q2"            # first quarter with commercial sales
+  backtest_end: "2025-Q1"              # last quarter with reported actuals
+
+database:
+  engine: "duckdb"                     # chosen for: zero-config, fast analytics, SQL+Python in one process
+  path: "data/forecast.duckdb"
+
+monte_carlo:
+  n_simulations: 10000
+  random_seed: 42
+
+modeling:
+  ridge_alpha_range: [0.01, 0.1, 1.0, 10.0, 100.0]
+  lasso_alpha_range: [0.001, 0.01, 0.1, 1.0, 10.0]
+  xgb_seed: 42
+  bass_maxfev: 10000
+
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  reports: "reports"
+  models: "models"

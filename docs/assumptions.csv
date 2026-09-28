@@ -1,0 +1,32 @@
+value,parameter,unit,source,source_url,retrieval_date,confidence,pre_or_post_asof,notes
+2021-05-28,fda_approval_date,date,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm,2026-09-29,high,post,Accelerated approval for 2L+ KRAS G12C NSCLC
+2021-04-30,as_of_date,date,Derived (month before approval),,2026-09-29,high,pre,Information cut-off for forecast
+17900,wac_price_per_month,USD,FirstWord Pharma / Amgen press release,https://firstwordpharma.com,2026-09-29,high,pre,WAC list price at launch
+960,daily_dose,mg,FDA label,https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/214665s000lbl.pdf,2026-09-29,high,pre,Eight 120mg tablets once daily
+37.1,orr_codebreak100,percent,NEJM Hong et al 2021 / Amgen,https://www.nejm.org/doi/full/10.1056/NEJMoa2103695,2026-09-29,high,pre,Objective response rate in registrational study
+6.8,median_pfs_codebreak100,months,NEJM Hong et al 2021 / Amgen,https://www.nejm.org/doi/full/10.1056/NEJMoa2103695,2026-09-29,high,pre,Median progression-free survival
+12.5,median_os_codebreak100,months,ASCO 2021 updated analysis,https://ascopubs.org,2026-09-29,high,pre,Median overall survival
+11.1,median_dor_codebreak100,months,ASCO 2021 updated analysis,https://ascopubs.org,2026-09-29,high,pre,Median duration of response
+235760,us_lung_cancer_new_cases_2021,patients,ACS Cancer Facts & Figures 2021,https://www.cancer.org/research/cancer-facts-statistics.html,2026-09-29,high,pre,All lung & bronchus new diagnoses US 2021
+0.85,nsclc_fraction,proportion,SEER / literature consensus,,2026-09-29,high,pre,NSCLC as fraction of all lung cancer
+0.70,advanced_metastatic_fraction,proportion,SEER stage distribution,,2026-09-29,medium,pre,Fraction diagnosed at advanced/metastatic stage
+0.13,kras_g12c_prevalence_nsclc,proportion,Published literature meta-analysis,https://pubmed.ncbi.nlm.nih.gov,2026-09-29,high,pre,KRAS G12C in non-squamous advanced NSCLC (US ~10-15%)
+0.50,biomarker_testing_rate_2021,proportion,ASCO / community oncology studies,https://ascopubs.org,2026-09-29,medium,pre,Estimated KRAS testing rate at time of launch (2021); NGS panels often included KRAS
+0.75,second_line_treatment_rate,proportion,Literature / NCCN guidelines,,2026-09-29,medium,pre,Fraction of advanced pts receiving 2L+ therapy
+2022-12-12,adagrasib_fda_approval,date,FDA,https://www.fda.gov,2026-09-29,high,post,Competitor (Krazati) accelerated approval
+36,lumakras_q2_2021_sales,million_USD,Amgen Q2 2021 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,First partial quarter of sales
+36,lumakras_q3_2021_sales,million_USD,Amgen Q3 2021 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,
+45,lumakras_q4_2021_sales,million_USD,Amgen Q4 2021 / FY2021 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,FY2021 total = ~$90M => implies ~$9M in partial Q2 if Q3=$36M Q4=$45M. Web sources inconsistent; using Amgen reported figures.
+62,lumakras_q1_2022_sales,million_USD,Amgen Q1 2022 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,
+77,lumakras_q2_2022_sales,million_USD,Amgen Q2 2022 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,
+75,lumakras_q3_2022_sales,million_USD,Amgen Q3 2022 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,
+71,lumakras_q4_2022_sales,million_USD,Amgen Q4 2022 / FY2022 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,FY2022 total = $285M
+74,lumakras_q1_2023_sales,million_USD,Amgen Q1 2023 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,
+77,lumakras_q2_2023_sales,million_USD,Amgen Q2 2023 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,
+52,lumakras_q3_2023_sales,million_USD,Amgen Q3 2023 earnings (estimated),https://amgen.gcs-web.com,2026-09-29,medium,post,Q3 not explicitly stated; derived: FY2023≈$295M minus Q1+Q2+Q4
+92,lumakras_q4_2023_sales,million_USD,Amgen Q4 2023 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,
+82,lumakras_q1_2024_sales,million_USD,Amgen Q1 2024 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,
+74,lumakras_q2_2024_sales,million_USD,Amgen Q2 2024 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,
+98,lumakras_q3_2024_sales,million_USD,Amgen Q3 2024 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,88% YoY increase
+85,lumakras_q4_2024_sales,million_USD,Amgen Q4 2024 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,10% YoY increase
+83,lumakras_q1_2025_sales,million_USD,Amgen Q1 2025 earnings,https://amgen.gcs-web.com,2026-09-29,high,post,

@@ -1,0 +1,16 @@
+parameter,value,unit,source,confidence,notes
+us_nsclc_new_cases_annual,200396.0,patients,ACS 2021 (235760 * 0.85),high,Non-small cell lung cancer new cases US 2021
+advanced_metastatic_fraction,0.7,proportion,SEER stage distribution,medium,Stage III/IV at diagnosis
+kras_mutation_prevalence_nsclc,0.25,proportion,Published literature,high,KRAS mutations in NSCLC adenocarcinoma
+kras_g12c_fraction_of_kras,0.4,proportion,Published literature,high,G12C as fraction of all KRAS mutations
+kras_g12c_prevalence_direct,0.13,proportion,Published literature (consensus),high,Direct prevalence in non-squamous advanced NSCLC
+biomarker_testing_rate_at_launch,0.5,proportion,Community oncology studies,medium,NGS/molecular testing rate for KRAS at launch
+biomarker_testing_rate_year2,0.65,proportion,Projected improvement,medium,Expected ramp-up
+biomarker_testing_rate_year3,0.75,proportion,Projected improvement,medium,
+second_line_eligible_fraction,0.75,proportion,Literature / NCCN,medium,Fraction receiving 2L+ systemic therapy
+wac_per_month,17900.0,USD,Amgen press release,high,Wholesale acquisition cost at launch
+median_treatment_duration,5.5,months,Estimated from median PFS 6.8mo,medium,Approx treatment until progression
+net_to_gross_ratio,0.6,proportion,Oncology industry benchmark,medium,Net revenue after rebates/discounts/340B
+annual_price_increase,0.05,proportion,Industry benchmark,medium,Annual WAC increase ~5%
+peak_share_of_eligible_2l,0.35,proportion,Analog-based estimate,medium,Peak share of tested+eligible 2L patients
+time_to_peak_quarters,12.0,quarters,Analog-based estimate,medium,~3 years to peak share

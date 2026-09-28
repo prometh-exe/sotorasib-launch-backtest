@@ -1,0 +1,4 @@
+drug,company,progression_probability,threat_score,estimated_launch_quarter
+adagrasib (MRTX849),Mirati Therapeutics,0.788,HIGH,2023-Q1
+GDC-6036 (divarasib),Genentech/Roche,0.752,HIGH,2024-Q3
+JNJ-74699157,Johnson & Johnson,0.737,HIGH,2025-Q1

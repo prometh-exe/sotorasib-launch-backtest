@@ -1,0 +1,17 @@
+quarter,sales_million_usd,source,confidence,notes
+2021-Q2,36.0,Amgen Q2 2021 earnings,high,First partial quarter post-approval (May 28)
+2021-Q3,36.0,Amgen Q3 2021 earnings,high,
+2021-Q4,45.0,Amgen Q4 2021 earnings,high,FY2021 total ~$90M (note: some sources report ~$117M including intl)
+2022-Q1,62.0,Amgen Q1 2022 earnings,high,
+2022-Q2,77.0,Amgen Q2 2022 earnings,high,
+2022-Q3,75.0,Amgen Q3 2022 earnings,high,
+2022-Q4,71.0,Amgen Q4 2022 earnings,high,FY2022 total $285M
+2023-Q1,74.0,Amgen Q1 2023 earnings,high,
+2023-Q2,77.0,Amgen Q2 2023 earnings,high,
+2023-Q3,52.0,Derived (FY2023 minus other quarters),medium,Q3 figure not explicitly stated in press release
+2023-Q4,92.0,Amgen Q4 2023 earnings,high,
+2024-Q1,82.0,Amgen Q1 2024 earnings,high,
+2024-Q2,74.0,Amgen Q2 2024 earnings,high,
+2024-Q3,98.0,Amgen Q3 2024 earnings,high,88% YoY increase
+2024-Q4,85.0,Amgen Q4 2024 earnings,high,10% YoY increase
+2025-Q1,83.0,Amgen Q1 2025 earnings,high,
